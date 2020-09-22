@@ -89,7 +89,7 @@ h4 {
 
 /* Hero Section */
 #hero {
-    background: url(./background.jpg);
+    background: url(../images/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -228,7 +228,12 @@ h4 {
 
 /* Contact Section */
 #contact {
-    padding-top: .5 rem;
+    padding-top: 1rem;
+}
+
+.contact-info {
+    margin-top: 3rem;
+    margin-bottom: 6rem;
 }
 
 .contact-info p,
@@ -237,19 +242,34 @@ h2 {
     width: 100%;
 }
 
-.contact-list i {
-    display: flex;
-    font-size: 1rem;
+.contact-list {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-list .fas {
+    float: left;
     text-align: center;
-    width: 3rem;
     height: auto;
     line-height: auto;
-    padding: .8rem;
+    margin-bottom: 2rem;
+    padding: .9rem .8rem;
+    font-size: 1.2rem;
     border-radius: 50%;
     background-color: rgba(103, 119, 239, .1);
 }
 
+.info-text {
+    float: right;
+    line-height: 2rem;
+    padding-left: 1rem;
+    width: 100%;
+}
 
+.info-text p {
+    line-height: 1.5rem;
+}
 
 #contact .card {
     padding-left: 4rem;
@@ -267,6 +287,11 @@ h2 {
     height: 6rem;
 }
 
+.contact-card {
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+}
+
 #contact .card {
     width: 100%;
     padding-left: .5rem;
@@ -277,6 +302,11 @@ h2 {
     align-self: center;
     padding: .5rem 1.5rem;
 }
+
+
+
+/* Footer */
+
 
 
 /* Media Queries */
