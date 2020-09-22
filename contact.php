@@ -1,79 +1,49 @@
-<?php include "./header.php" ?>
+<!DOCTYPE html>
+<html lang="en">
 
-<section id="contact">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Factory</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/fontawesome-free-5.14.0-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+</head>
 
-    <div class="container justify-content-center text-center mb-5 mt-5">
-        <h2>Contact Us</h2>
-    </div>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <div class="container">
 
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+                    aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-                    <div class="text text-lg-left contact-info">
-                        <h2>Website Factory</h2>
-                        <p>If there are things you do not understand or you want to consult regarding digital marketing,
-                            please
-                            contact us. We will be happy to respond immediately</p>
+                <div>
+                    <img src="./assets/images/image.png" class="img-fluid" alt="brand">
+                </div>
 
-                        <div class="container contact-list">
-                            <div class="row">
-                                <div class="col-12">
-                                    <div>
-                                        <i class="fas fa-map-marker-alt col-1"></i>
-                                        <p>Jalan Bantan No. 37</p>
-                                        <p>Kecamatan Medan Tembung, Medan.</p>
-                                    </div>
-                                </div>
-                            </div>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo03">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.php#hero">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.php#features">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.php#pricing">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.php">Contact Us</a>
+                        </li>
+                    </ul>
 
-                            <div class="row">
-                                <div class="col-12">
-                                    <div>
-                                        <i class="fas fa-phone col-1"></i>
-                                        <p>Phone :</p>
-                                        <p>+62 852 6540 2519</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-12">
-                                    <div>
-                                        <i class="fas fa-envelope col-1"></i>
-                                        <p>E-mail :</p>
-                                        <p>lukmanrambe1945@gmail.com</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
+                    <a href="#" class="btn" id="login">Login</button></a>
+                    <a href="#" class="btn" id="join">Join Now</button></a>
 
                 </div>
-            </div>
-
-            <div class="col-lg-6">
-                <div class="container contact-card mt-5">
-                    <div class="card">
-                        <div class="card-body">
-                            <h6 class="card-title text-center">Contact Us</h6>
-                            <form action="contact.php" method="POST">
-                                <input type="email" name="email" placeholder="E-mail"><br><br>
-                                <input type="password" name="password" placeholder="Password"><br><br>
-                                <textarea name="message" cols="30" rows="10" placeholder="Your Message"></textarea><br>
-                                <button type="submit" class="btn btn-primary">Send</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-</section>
-
-</html>
-
-<?php include "./footer.php" ?>
+        </nav>
+    </header>
