@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+/* Navbar */
+.navbar-nav {
+    background: transparent;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-weight: 500;
+    margin-right: 2rem;
+    color: #ffffff;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    font-weight: 500;
+    color: #ffffff;
+    text-decoration: none;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 1px #fff, 0 0 1px #fff, 0 0 1px #ffffff, 0 0 1px #ffffff, 0 0 1px #ffffff, 0 0 1px #ffffff, 0 0 1px #ffffff;
+    }
+
+    to {
+        text-shadow: 0 0 2px #fff, 0 0 2px #ffffff, 0 0 2px #ffffff, 0 0 2px #a28d97, 0 0 2px #ffffff, 0 0 2px #ffffff, 0 0 2px #ffffff;
+    }
+}
+
+
+#login {
+    font-weight: 600;
+    color: #ffffff;
+    border: 1px solid transparent;
+    background-color: #38b3ff;
+    border-radius: 2rem;
+    margin-right: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+#join {
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #8572ff;
+    border-radius: 2rem;
+    margin-right: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+#login:hover {
+    background: #329ee1;
+}
+
+#join:hover {
+    background-color: #7766e3;
+}
+
+
+
+/* Hero Section */
+#hero {
+    background: url(./background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 4rem;
+    padding-bottom: 10rem;
+}
+
+.container {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.text {
+    margin-top: 25%;
+}
+
+.text h1 {
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    width: 80%
+}
+
+.text p {
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 70%
+}
+
+.image-box {
+    position: relative;
+    top: 5rem;
+    z-index: 1;
+}
+
+.img-fluid {
+    max-width: 110%;
+    height: auto;
+}
+
+#hero::after {
+    content: '';
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    height: 25%;
+    transform: skewy(-2deg);
+    transform-origin: bottom right;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+
+
+/* Features */
+#features {
+    color: #1e1666;
+}
+
+.feature-block {
+    margin-bottom: 2.3rem;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.feature-block i {
+    display: inline-block;
+    font-size: 1.4rem;
+    text-align: center;
+    width: 3.4rem;
+    height: auto;
+    line-height: auto;
+    padding: 1rem;
+    border-radius: 50%;
+    margin-bottom: .5rem;
+    background-color: rgba(103, 119, 239, .1);
+}
+
+
+/* Pricing  */
+#pricing {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 6rem;
+}
+
+.pricing-title {
+    color: #1e1666;
+}
+
+.card {
+    border: none;
+    margin-bottom: 2rem;
+    box-shadow: -1px 0px 10px 0px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: -1px 0px 10px 0px rgba(0, 0, 0, .8);
+    -moz-box-shadow: -1px 0px 10px 0px rgba(0, 0, 0, .8);
+    -o-box-shadow: -1px 0px 10px 0px rgba(0, 0, 0, .8);
+}
+
+.card-title {
+    color: #1e1666;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.list {
+    line-height: 1rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.list p {
+    font-size: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#pricing .card-body {
+    margin: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+#pricing .card .btn {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+
+/* Contact Section */
+#contact {
+    padding-top: .5 rem;
+}
+
+.contact-info p,
+h2 {
+    color: #1e1666;
+    width: 100%;
+}
+
+.contact-list i {
+    display: flex;
+    font-size: 1rem;
+    text-align: center;
+    width: 3rem;
+    height: auto;
+    line-height: auto;
+    padding: .8rem;
+    border-radius: 50%;
+    background-color: rgba(103, 119, 239, .1);
+}
+
+
+
+#contact .card {
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+#contact input {
+    padding: .3rem 1rem;
+    width: 100%;
+}
+
+#contact textarea {
+    padding: .3rem 1rem .3rem 1rem;
+    width: 100%;
+    height: 6rem;
+}
+
+#contact .card {
+    width: 100%;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+#contact .btn {
+    align-self: center;
+    padding: .5rem 1.5rem;
+}
+
+
+/* Media Queries */
+@media (max-width: 768px) {
+
+    /* pricing section */
+    .card {
+        width: 100%;
+        margin-bottom: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .card-body {
+        padding: auto .5rem;
+    }
+}
