@@ -1,4 +1,4 @@
-<?php include "./header.php" ?>
+<?php include "./lib/inc/header.php" ?>
 
 <main>
     <!-- Hero Section -->
@@ -19,7 +19,7 @@
 
                 <div class="col-lg-6">
                     <div class="image-box">
-                        <img src="vector.png" class="img-fluid" alt="factory">
+                        <img src="./assets/images/vector.png" class="img-fluid" alt="factory">
                     </div>
                 </div>
 
@@ -175,4 +175,4 @@
 
 </main>
 
-<?php include "./footer.php" ?>
+<?php include "./lib/inc/footer.php" ?>
