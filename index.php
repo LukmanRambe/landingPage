@@ -1,15 +1,32 @@
 <?php include "./lib/inc/header.php" ?>
 
 <main>
+
     <!-- Hero Section -->
     <section href="hero" id="hero">
 
+        <!-- Login Status -->
+
+        <div id="login-alert" class="container col-lg-6 col-md-12 login-alert">
+            <div class="container card">
+                <?php 
+                
+                if (isset($_GET['login']) == "success") {
+                    echo '<p class="login-status-text text-center justify-content-center">You are logged in!</p>';
+                } else if (isset($_GET['logout']) == "success") {
+                    echo ' <p class="login-status-text text-center justify-content-center">You are logged out!</p>';
+                }
+
+                ?>
+            </div>
+        </div>
+
         <div class="container">
 
-            <div class="row main-hero-content">
+            <div class="row">
 
                 <div class="col-lg-6">
-                    <div class="text text-lg-left">
+                    <div class="text">
                         <h1>the best web creation service</h1>
                         <p>We Provide Professional Web Company Profile, Online Shop, Landing Page, Travel Web and Dealer
                             Web.
@@ -19,7 +36,7 @@
 
                 <div class="col-lg-6">
                     <div class="image-box">
-                        <img src="./assets/images/vector.png" class="img-fluid" alt="factory">
+                        <img src="./assets/images/index-vector.png" class="img-fluid" alt="factory">
                     </div>
                 </div>
 
@@ -100,8 +117,10 @@
                 <div class="col-lg-4">
                     <div class="card">
                         <div class="card-body">
+                            <i class="fas fa-globe"></i>
                             <h4 class="card-title mb-3">Basic</h4>
                             <div class="list">
+                                <p>Rp 3.000.000</p>
                                 <p>Gratis Domain .com</p>
                                 <p>Web Space 500 MB</p>
                                 <p>Unlimited Bandwith</p>
@@ -115,16 +134,19 @@
                                 <p>Support by email &amp; call/WA</p>
                                 <p>Free Konsultasi</p>
                             </div>
-                            <a href="#" class="btn btn-primary">Call Us</button></a>
+                            <a href="https://wa.me/6265402519" class="btn">Contact Us</button></a>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-lg-4">
-                    <div class="card">
+                    <div class="card premium">
+                        <div class="card-header">Popular</div>
                         <div class="card-body">
+                            <i class="fas fa-gem"></i>
                             <h4 class="card-title mb-3">Premium</h4>
                             <div class="list">
+                                <p>Rp 6.000.000</p>
                                 <p>Gratis Domain .com</p>
                                 <p>Unlimited Web Space</p>
                                 <p>Unlimited Bandwith</p>
@@ -140,7 +162,7 @@
                                 <p>Support by email &amp; call/WA</p>
                                 <p>Free Konsultasi</p>
                             </div>
-                            <a href="#" class="btn btn-success">Call Us</button></a>
+                            <a href="https://wa.me/6265402519" class="btn">Contact Us</button></a>
                         </div>
                     </div>
                 </div>
@@ -148,8 +170,10 @@
                 <div class="col-lg-4">
                     <div class="card">
                         <div class="card-body">
+                            <i class="fas fa-trophy"></i>
                             <h4 class="card-title mb-3">Pro</h4>
                             <div class="list">
+                                <p>Rp 4.000.000</p>
                                 <p>Gratis Domain .com</p>
                                 <p>Unlimited Web Space</p>
                                 <p>Unlimited Bandwith</p>
@@ -163,7 +187,7 @@
                                 <p>Support by email &amp; call/WA</p>
                                 <p>Free Konsultasi</p>
                             </div>
-                            <a href="#" class="btn btn-primary">Call Us</button></a>
+                            <a href="https://wa.me/6265402519" class="btn">Contact Us</button></a>
                         </div>
                     </div>
                 </div>

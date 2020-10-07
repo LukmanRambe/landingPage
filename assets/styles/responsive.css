@@ -1,0 +1,63 @@
+/* Media Queries */
+@media (max-width: 992px) {
+
+    /* navbar section */
+    .navbar {
+        background: rgba(1, 18, 70, .7);
+        padding-left: 1rem;
+        padding: .7rem;
+    }
+
+    #login {
+        width: 100%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    #sign-up {
+        width: 100%;
+    }
+
+    #login-alert .card {
+        top: 3rem;
+        width: 140%;
+    }
+
+    form #logout {
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    /* Hero section */
+    #hero .text {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    .image-box {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+
+    /* pricing section */
+    .card {
+        width: 100%;
+        margin-bottom: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .card-body {
+        padding: auto .5rem;
+    }
+
+    #login-card .card {
+        width: 100%;
+    }
+
+    #signup-card .card {
+        width: 100%;
+    }
+}
