@@ -25,7 +25,7 @@
 
             <div class="row">
 
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-md-9">
                     <div class="text">
                         <h1>the best web creation service</h1>
                         <p>We Provide Professional Web Company Profile, Online Shop, Landing Page, Travel Web and Dealer

@@ -12,7 +12,7 @@
             </div>
 
             <h1 class="text-center form-header mt-3 mb-4">Create Your Account</h1>
-            <div id="signup-card" class="container">
+            <div id="signup-card" class="container col-md-12">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title text-center">Sign Up</h5>

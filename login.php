@@ -12,7 +12,7 @@
             
             
             <h1 class="text-center form-header mt-3 mb-4">Login to Website Factory</h1>
-            <div id="login-card" class="container">
+            <div id="login-card" class="container col-md-12">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title text-center">Login</h5>
@@ -44,8 +44,8 @@
                                     placeholder="E-mail"><br>
                                 <input type="password" name="user_password" class="form-control" id="password"
                                     placeholder="Password"><br>
-                                <button type="submit" name="login_submit" id="login" class="btn login">Login</button>
-                                <hr>
+                                <button type="submit" name="login_submit" id="login" class="btn login">Login</button><hr>
+                                
                                 <a href="signup.php" id="sign-up" class="btn">Sign Up</a><br><br>
                                 <p class="text-center">Forgot Password? <a href="">Click Here</a></p>
                             </form>

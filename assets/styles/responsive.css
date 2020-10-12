@@ -39,8 +39,10 @@
     }
 }
 
-@media (max-width: 768px) {
-
+@media (max-width: 800px) {
+    .text h1 {
+        width: 85%;
+    }
     /* pricing section */
     .card {
         width: 100%;
@@ -54,10 +56,39 @@
     }
 
     #login-card .card {
+        width: 60%;
+    }
+
+    #signup-form {
+        margin-bottom: 5rem;
+    }
+
+    #signup-card .card {
+        width: 60%;
+    }
+}
+
+@media (max-width: 540px) {
+    /* Hero Section */
+    .text h1 {
+        font-size: 3rem;
+    }
+
+    #login-card .card {
         width: 100%;
+    }
+
+    #signup-form {
+        margin-bottom: 2rem;
     }
 
     #signup-card .card {
         width: 100%;
+    }
+}
+
+@media (max-width: 380px){
+    #pricing .list p:nth-child(1) {
+        font-size: 1.7rem;
     }
 }

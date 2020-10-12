@@ -71,12 +71,11 @@ h4 {
 #login {
     font-weight: 600;
     color: #ffffff;
-    border: 1px solid transparent;
-    background-color: #38b3ff;
     border-radius: 2rem;
     margin-right: 1rem;
     padding-right: 1rem;
     padding-left: 1rem;
+    background-color: #38b3ff;
 }
 
 #login:hover {
@@ -86,11 +85,11 @@ h4 {
 #sign-up {
     font-weight: 600;
     color: #ffffff;
-    background-color: #8572ff;
     border-radius: 2rem;
     margin-right: 1rem;
     padding-right: 1rem;
     padding-left: 1rem;
+    background-color: #8572ff;
 }
 
 #sign-up:hover {
@@ -138,6 +137,10 @@ h4 {
 form #logout {
     font-weight: 600;
     color: #ffffff;
+    border-radius: 2rem;
+    margin-right: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
     background-color: #ff2a2a;
 }
 
@@ -171,7 +174,7 @@ form #logout:hover {
     font-size: 3.5rem;
     font-weight: 700;
     text-transform: capitalize;
-    width: 80%
+    width: 100%
 }
 
 .text p {
@@ -325,7 +328,9 @@ form #logout:hover {
 
 #pricing .list p:nth-child(1) {
     font-family: 'Crimson Text', serif;
-    font-size: 2.2rem;
+    font-size: 1.8rem;
+    padding-left: 0;
+    padding-right: 0;
     padding-bottom: 1rem;
     font-weight: 700;
 }
@@ -461,7 +466,7 @@ h2 {
 }
 
 #login-card .card {
-    width: 35%;
+    width: 30%;
     margin-bottom: 2rem;
 }
 
