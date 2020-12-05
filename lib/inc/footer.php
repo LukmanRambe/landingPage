@@ -17,7 +17,7 @@
             <div class="footer-menu col-lg-3">
                 <h6>Our Service</h6>
                 <div class="footer-list">
-                    <p>Basic</a></p>
+                    <p>Basic</p>
                     <p>Pro</p>
                     <p>Premium</p>
                 </div>
