@@ -1,8 +1,8 @@
 <?php
 
 $DB_HOST = "localhost";
-$DB_USERNAME = "lukman";
-$DB_PASSWORD = "LUKMANRambe#INSERT";
+$DB_USERNAME = "db_username";
+$DB_PASSWORD = "db_password";
 $DB_NAME = "website_factory";
 
 
